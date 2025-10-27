@@ -123,6 +123,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#overview-of-my-website" id="toc-overview-of-my-website" class="nav-link active" data-scroll-target="#overview-of-my-website">Overview of My Website</a>
   <ul class="collapse">
   <li><a href="#some-quarto-commands" id="toc-some-quarto-commands" class="nav-link" data-scroll-target="#some-quarto-commands">Some Quarto Commands</a></li>
+  <li><a href="#some-quarto-code-block-information" id="toc-some-quarto-code-block-information" class="nav-link" data-scroll-target="#some-quarto-code-block-information">Some Quarto Code Block Information</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -145,6 +146,12 @@ ul.task-list li input[type="checkbox"] {
 <p><code>quarto inspect</code> — dump the final metadata that Quarto sees after all inheritance; handy to debug _metadata.yml.</p>
 <p><code>quarto format</code> — reflow/clean markdown and code fences; good for tidying shared posts.</p>
 <p><code>quarto help &lt;command&gt;</code> — built-in docs for any subcommand; e.g.&nbsp;quarto help render lists all flags.</p>
+</section>
+<section id="some-quarto-code-block-information" class="level2">
+<h2 class="anchored" data-anchor-id="some-quarto-code-block-information">Some Quarto Code Block Information</h2>
+<p>A code chunk (<code>{python} ...</code>) runs through a Quarto kernel/engine, captures outputs, and can affect the document; options inside the braces control execution and display.</p>
+<p>A raw block (<code>{=html} ...</code>) is passed straight to Pandoc without evaluation; you pick the format (=html, =latex, =yaml, etc.) so it drops verbatim into the rendered output.</p>
+<p>Raw blocks just bypass Quarto’s execution step, so #| lines aren’t interpreted there—they come out exactly as typed. The #| option: value syntax is only recognized in executable code chunks (Python/R/etc.) and in the document front matter. If you need a raw block to contain code that controls formatting, use the appropriate Pandoc raw format tag (e.g., {=html}) and skip #| directives.</p>
 
 
 </section>

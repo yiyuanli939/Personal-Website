@@ -9,16 +9,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "quarto_web",
+    "title": "Yiyuan Li",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "🪄 they/them\nYiyuan (Chris) Li is a senior undergraduate student at Reed College, where they are completing an interdisciplinary thesis on Trustworthy AI Evaluations and Vertical AI Agent Benchmarks. Their research bridges large language models, multimodal systems, and fine-grained evaluation design, with applications spanning data analysis and agentic workflows. They collaborate with Reed’s DataLab and Cerveny Lab, contributing to both AI evaluation frameworks and biological imaging pipelines. They are passionate about advancing reliable and interpretable AI while building sustainable computing infrastructure for research. Outside of work, they enjoy exploring philosophy and writing creatively across science and art."
   },
   {
     "objectID": "Overview.html",
     "href": "Overview.html",
     "title": "Overview of My Website",
     "section": "",
-    "text": "First, if you want to understand this website, you may view the _quarto.yml file. The file _quarto.yml is the project-level configuration file that tells Quarto how to build the site.\nThe directory posts/ stores all the blogs that I wrote. The file in the root directory blog.qmd is the listing page that gatheres everything under posts\n\n\nquarto render — build the project (or pass a file name) into _site/; use –profile prod or –output-dir to customize.\nquarto preview — live-reload server for the project; auto-renders on save and opens a local URL.\nquarto check — sanity-check your install, project metadata, and rendering capabilities; add check project to focus on the current folder.\nquarto inspect — dump the final metadata that Quarto sees after all inheritance; handy to debug _metadata.yml.\nquarto format — reflow/clean markdown and code fences; good for tidying shared posts.\nquarto help &lt;command&gt; — built-in docs for any subcommand; e.g. quarto help render lists all flags."
+    "text": "First, if you want to understand this website, you may view the _quarto.yml file. The file _quarto.yml is the project-level configuration file that tells Quarto how to build the site.\nThe directory posts/ stores all the blogs that I wrote. The file in the root directory blog.qmd is the listing page that gatheres everything under posts\n\n\nquarto render — build the project (or pass a file name) into _site/; use –profile prod or –output-dir to customize.\nquarto preview — live-reload server for the project; auto-renders on save and opens a local URL.\nquarto check — sanity-check your install, project metadata, and rendering capabilities; add check project to focus on the current folder.\nquarto inspect — dump the final metadata that Quarto sees after all inheritance; handy to debug _metadata.yml.\nquarto format — reflow/clean markdown and code fences; good for tidying shared posts.\nquarto help &lt;command&gt; — built-in docs for any subcommand; e.g. quarto help render lists all flags.\n\n\n\nA code chunk ({python} ...) runs through a Quarto kernel/engine, captures outputs, and can affect the document; options inside the braces control execution and display.\nA raw block ({=html} ...) is passed straight to Pandoc without evaluation; you pick the format (=html, =latex, =yaml, etc.) so it drops verbatim into the rendered output.\nRaw blocks just bypass Quarto’s execution step, so #| lines aren’t interpreted there—they come out exactly as typed. The #| option: value syntax is only recognized in executable code chunks (Python/R/etc.) and in the document front matter. If you need a raw block to contain code that controls formatting, use the appropriate Pandoc raw format tag (e.g., {=html}) and skip #| directives."
   },
   {
     "objectID": "about.html",
@@ -40,5 +40,54 @@
     "title": "Use Quarto to Build My Website",
     "section": "",
     "text": "As a person with humanity and statistics background doing LLM today, quarto is one of a few “pearls” I inherited from the statistics community. The primary advantage I would love to work on is the\nWe can create a variety of format using relative simple grammar (Shanny-Csik, 2022). If I want to create a citation in my blog, what I need to do is only add several lines in my yaml header in blow.\n#| code-fold: true\nciteproc: true                                             # use cite processor \ncsl: references/association-for-computational-linguistics  # use the style installed \nbibliography: \"references/Website (Personal).bib\"          # use the citations exported by zotero\nThe second advantage is the potentlity of code chuck formats\n\n#|code-fold: true to let readers collapse the block.\n#| code-summary: \"Citation settings\" to label the folded block.\n#| code-copy: true to show a copy-to-clipboard button.\n#| code-tools: true for the toolbar (copy/download).\n#| code-line-numbers: true to number lines.\n#| code-overflow: wrap or scroll to control horizontal overflow.\n#| ode-block-bg: false to remove the background if you want the snippet to blend in.\n\n\n\n\n\nReferences\n\nMine Cetinkaya-Rundel and Charlotte Wickham. 2025. Mine-cetinkaya-rundel/quarto-tdg.\n\n\nSam Shanny-Csik. 2022. Creating your personal website using Quarto."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Yiyuan Li",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: chrisli218085778@gmail.com\nBluesky: https://bsky.app/profile/yiyuan-li.bsky.social\nGitHub: https://github.com/yiyuanli939\nLinkedIn: https://www.linkedin.com/notifications/?filter=all"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Yiyuan Li",
+    "section": "Interests",
+    "text": "Interests\n\nLarge Language Model Evaluation\nAI for Science, Social Science, and the Humanities\nMulti-Modal Data Science"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Yiyuan Li",
+    "section": "Education",
+    "text": "Education\n\nReed College · B.A., Computer Science & Mathematics (2020–2026)\n\nGPA: 3.77/4.0\n\nTransitioned from political theory into an interdisciplinary Math–Computer Science path focused on Trustworthy AI Evaluations and Vertical AI Agent Benchmarks\n\nThesis integrates data analysis, evaluation design, and computational reproducibility\n\n\n\nOxford University · Centre for Medieval and Renaissance Studies (2022–2023)\n\nConcentrated on the history and philosophy of science\n\nExplored the intellectual origins of modern scientific reasoning and their relevance to contemporary AI ethics"
+  },
+  {
+    "objectID": "index.html#selected-skills",
+    "href": "index.html#selected-skills",
+    "title": "Yiyuan Li",
+    "section": "Selected Skills",
+    "text": "Selected Skills\n\nPython & PyTorch — advanced\nMachine Learning — expert\nCloud Computing (AWS/GCP) — proficient"
+  },
+  {
+    "objectID": "index.html#beyond-work",
+    "href": "index.html#beyond-work",
+    "title": "Yiyuan Li",
+    "section": "Beyond Work",
+    "text": "Beyond Work\n\nHiking in the Rockies\nBuilding custom PCs\nSci-fi reading"
+  },
+  {
+    "objectID": "index.html#languages",
+    "href": "index.html#languages",
+    "title": "Yiyuan Li",
+    "section": "Languages",
+    "text": "Languages\n\nEnglish — native fluency\nSpanish — conversational"
+  },
+  {
+    "objectID": "Overview.html#some-quarto-code-block-information",
+    "href": "Overview.html#some-quarto-code-block-information",
+    "title": "Overview of My Website",
+    "section": "",
+    "text": "A code chunk ({python} ...) runs through a Quarto kernel/engine, captures outputs, and can affect the document; options inside the braces control execution and display.\nA raw block ({=html} ...) is passed straight to Pandoc without evaluation; you pick the format (=html, =latex, =yaml, etc.) so it drops verbatim into the rendered output.\nRaw blocks just bypass Quarto’s execution step, so #| lines aren’t interpreted there—they come out exactly as typed. The #| option: value syntax is only recognized in executable code chunks (Python/R/etc.) and in the document front matter. If you need a raw block to contain code that controls formatting, use the appropriate Pandoc raw format tag (e.g., {=html}) and skip #| directives."
   }
 ]

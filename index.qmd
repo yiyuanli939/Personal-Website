@@ -1,7 +1,24 @@
 ---
-title: "quarto_web"
+title: "Yiyuan Li"
+subtitle: "Computer Science & Mathematics major at Reed College"
+format:
+  html:
+    toc: true
 ---
 
-This is a Quarto website.
+Yiyuan (Chris) Li (🪄 they/them) is a senior undergraduate student at Reed College, where they are completing an interdisciplinary thesis on Trustworthy AI Evaluations and Vertical AI Agent Benchmarks. Their research bridges large language models, multimodal systems, and fine-grained evaluation design, with applications spanning data analysis and agentic workflows. They collaborate with Reed’s DataLab and Cerveny Lab, contributing to both AI evaluation frameworks and biological imaging pipelines. They are passionate about advancing reliable and interpretable AI while building sustainable computing infrastructure for research. Outside of work, they enjoy exploring philosophy and writing creatively across science and art.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Interests
+
+- Large Language Model Evaluation
+- AI for Science, Social Science, and the Humanities
+- Multi-Modal Data Science
+
+## Contact
+
+- Email: [chrisli218085778@gmail.com](mailto:chrisli218085778@gmail.com)
+- Bluesky: <https://bsky.app/profile/yiyuan-li.bsky.social>
+- GitHub: <https://github.com/yiyuanli939>
+- LinkedIn: <https://www.linkedin.com/notifications/?filter=all>
+
+
