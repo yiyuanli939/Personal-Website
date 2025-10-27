@@ -1,0 +1,8 @@
+---
+format:
+  html:
+    toc: true          # auto-build a table of contents in each post
+    code-fold: true    # let readers toggle code blocks open/closed
+    number-sections: true  # add hierarchical numbering to headings
+    code-tools: true   # show copy/download buttons on code chunks
+---

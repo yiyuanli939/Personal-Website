@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Use Quarto to Build My Website\n\n\n\n\n\n\n\n\nOct 27, 2025\n\n\nYiyuan (Chris) Li\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto_web",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "Overview.html",
+    "href": "Overview.html",
+    "title": "Overview of My Website",
+    "section": "",
+    "text": "First, if you want to understand this website, you may view the _quarto.yml file. The file _quarto.yml is the project-level configuration file that tells Quarto how to build the site.\nThe directory posts/ stores all the blogs that I wrote. The file in the root directory blog.qmd is the listing page that gatheres everything under posts\n\n\nquarto render — build the project (or pass a file name) into _site/; use –profile prod or –output-dir to customize.\nquarto preview — live-reload server for the project; auto-renders on save and opens a local URL.\nquarto check — sanity-check your install, project metadata, and rendering capabilities; add check project to focus on the current folder.\nquarto inspect — dump the final metadata that Quarto sees after all inheritance; handy to debug _metadata.yml.\nquarto format — reflow/clean markdown and code fences; good for tidying shared posts.\nquarto help &lt;command&gt; — built-in docs for any subcommand; e.g. quarto help render lists all flags."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Overview.html#some-quarto-commands",
+    "href": "Overview.html#some-quarto-commands",
+    "title": "Overview of My Website",
+    "section": "",
+    "text": "quarto render — build the project (or pass a file name) into _site/; use –profile prod or –output-dir to customize.\nquarto preview — live-reload server for the project; auto-renders on save and opens a local URL.\nquarto check — sanity-check your install, project metadata, and rendering capabilities; add check project to focus on the current folder.\nquarto inspect — dump the final metadata that Quarto sees after all inheritance; handy to debug _metadata.yml.\nquarto format — reflow/clean markdown and code fences; good for tidying shared posts.\nquarto help &lt;command&gt; — built-in docs for any subcommand; e.g. quarto help render lists all flags."
+  },
+  {
+    "objectID": "posts/1_why_quarto.html",
+    "href": "posts/1_why_quarto.html",
+    "title": "Use Quarto to Build My Website",
+    "section": "",
+    "text": "As a person with humanity and statistics background doing LLM today, quarto is one of a few “pearls” I inherited from the statistics community. The primary advantage I would love to work on is the\nWe can create a variety of format using relative simple grammar (Shanny-Csik, 2022). If I want to create a citation in my blog, what I need to do is only add several lines in my yaml header in blow.\n#| code-fold: true\nciteproc: true                                             # use cite processor \ncsl: references/association-for-computational-linguistics  # use the style installed \nbibliography: \"references/Website (Personal).bib\"          # use the citations exported by zotero\nThe second advantage is the potentlity of code chuck formats\n\n#|code-fold: true to let readers collapse the block.\n#| code-summary: \"Citation settings\" to label the folded block.\n#| code-copy: true to show a copy-to-clipboard button.\n#| code-tools: true for the toolbar (copy/download).\n#| code-line-numbers: true to number lines.\n#| code-overflow: wrap or scroll to control horizontal overflow.\n#| ode-block-bg: false to remove the background if you want the snippet to blend in.\n\n\n\n\n\nReferences\n\nMine Cetinkaya-Rundel and Charlotte Wickham. 2025. Mine-cetinkaya-rundel/quarto-tdg.\n\n\nSam Shanny-Csik. 2022. Creating your personal website using Quarto."
+  }
+]

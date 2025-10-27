@@ -1,0 +1,33 @@
+---
+title: "Use Quarto to Build My Website"
+date: 2025-10-27
+author: "Yiyuan (Chris) Li "
+citeproc: true # use cite processor 
+csl: references/association-for-computational-linguistics
+bibliography: "references/Website (Personal).bib"
+reference-location: document       # push the bibliography to the end (use margin/section to move it)
+citation-location: document        # keep in-text cites inline; set to margin for sidenotes if using margin layout
+nocite: "@cetinkaya-rundelMinecetinkayarundelQuartotdg2025"  # include uncited works in the bibliography
+---
+
+As a person with humanity and statistics background doing LLM today, quarto is one of a few "pearls" I inherited from the statistics community. The primary advantage I would love to work on is the 
+
+We can create a variety of format using relative simple grammar  [@shanny-csikCreatingYourPersonal2022]. If I want to create a citation in my blog, what I need to do is only add several lines in my yaml header in blow. 
+```{yaml}
+#| code-fold: true
+citeproc: true                                             # use cite processor 
+csl: references/association-for-computational-linguistics  # use the style installed 
+bibliography: "references/Website (Personal).bib"          # use the citations exported by zotero
+```
+
+
+The second advantage is the potentlity of code chuck formats
+
+- `#|code-fold: true` to let readers collapse the block.
+- `#| code-summary: "Citation settings"` to label the folded block.
+- `#| code-copy: true` to show a copy-to-clipboard button.
+- `#| code-tools: true` for the toolbar (copy/download).
+- `#| code-line-numbers: true` to number lines.
+- `#| code-overflow: wrap` or `scroll` to control horizontal overflow.
+- `#| ode-block-bg: false` to remove the background if you want the snippet to blend in.
+
