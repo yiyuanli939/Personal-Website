@@ -22,7 +22,7 @@ about:
       href: mailto:chrisli218085778@gmail.com
     - icon: file-earmark-person
       text: CV 
-      href: files/Yiyuan_Li_CV.pdf
+      href: ./files/Yiyuan_Li_CV.pdf
       target: _blank
 
 
