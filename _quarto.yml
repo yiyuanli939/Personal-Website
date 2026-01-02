@@ -1,8 +1,8 @@
 project:
   type: website
-  resources:
-    - files/**
   output-dir: docs
+  resources:
+    - files/
 
 website:
   title: "Yiyuan Li"
