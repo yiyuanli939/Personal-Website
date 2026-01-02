@@ -1,20 +1,14 @@
 {
-  "index.qmd": {
-    "index.html": "b221b212"
-  },
-  "about.qmd": {
-    "about.html": "e6f1c701"
-  },
-  "posts/document.qmd": {
-    "document.html": "360da587"
-  },
   "Overview.md": {
-    "Overview.html": "039e1e47"
-  },
-  "blog.qmd": {
-    "blog.html": "ea393a56"
+    "Overview.html": "891da5f9"
   },
   "posts/1_why_quarto.qmd": {
-    "1_why_quarto.html": "b760265c"
+    "1_why_quarto.html": "0b3af593"
+  },
+  "index.qmd": {
+    "index.html": "b7220cb3"
+  },
+  "blog.qmd": {
+    "blog.html": "4cb1f62a"
   }
 }

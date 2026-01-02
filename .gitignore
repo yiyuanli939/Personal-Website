@@ -1,2 +1,21 @@
+# Quarto
 /.quarto/
+/_quarto/
 **/*.quarto_ipynb
+/_site/
+/_freeze/
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+
+# LaTeX build artifacts (cv)
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.out
+*.toc
+

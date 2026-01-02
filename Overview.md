@@ -26,3 +26,5 @@ A code chunk (```{python} ... ```) runs through a Quarto kernel/engine, captures
 A raw block (```{=html} ... ```) is passed straight to Pandoc without evaluation; you pick the format (=html, =latex, =yaml, etc.) so it drops verbatim into the rendered output.
 
 Raw blocks just bypass Quarto’s execution step, so #| lines aren’t interpreted there—they come out exactly as typed. The #| option: value syntax is only recognized in executable code chunks (Python/R/etc.) and in the document front matter. If you need a raw block to contain code that controls formatting, use the appropriate Pandoc raw format tag (e.g., {=html}) and skip #| directives.
+
+## Review on index.qmd

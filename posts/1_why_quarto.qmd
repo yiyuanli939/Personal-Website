@@ -9,6 +9,97 @@ bibliography: "references/Website (Personal).bib"
 
 As a person with humanity and statistics background doing LLM today, quarto is one of a few "pearls" I inherited from the statistics community. The primary advantage I would love to work on is the simplicity. We don't have to spend too much time to add a new feature. 
 
+## Some Basic Operatiosn 
+
+To build a website, we can use the online resources in [create website](https://quarto.org/docs/websites/) section in quarto. 
+
+We need, however, to understand the quarto logic. The core design logic of quarto-cli following the command style 
+```zsh
+quarto <verb> [target] [options]
+```
+Common verbs mirror the workflow:
+- render — run the full pipeline
+- preview — render + live reload server
+- publish — render + deploy to hosting
+- create — scaffold new projects
+- check — diagnose environment issues
+
+## Project Structure 
+
+There are several files that need extra attention, First, in `_quarto.yml` all the configurations are stored here. It is the infrastrcutre of all the important information of the project. As in 2025.12, my `_quarto.yml` looks like 
+```yaml
+project:
+  type: website
+
+website:
+  title: "Yiyuan Li"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home # homepage link 
+      - href: blog.qmd 
+        text: Blog
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss 
+    toc: true
+```
+Everything in here is yaml mapping. According to [the definitive guide of quarto](https://quarto-tdg.org/yaml#yaml-mappings), all the yaml mapping can be described as `key: value` pairs. Here, the value can be int, boolean, string, a set of ordered values, and another map. The possible options, different from the syntax regulation, are be review in the [reference](https://quarto.org/docs/reference/) of quartos' document. 
+
+But why? We can treat the hierarchical design of the YAML system as a systematic way to balance the consistency and flexibility of the contents within the same project. Thus, `_quarto.yml` provides information of the whole project, `front_matter` on top of each file provides page level information that can override the genernal information. Of course, for each directory (folder), we can design directory only `_metadata.yml `.  However, there are some configuratiosn that are `_quarto.yml` only.
+
+::: {.callout-note collapse="true" title="Quarto project options"}
+```yaml
+# Project definition
+project:
+  type: website | book | manuscript | default
+  output-dir: _site
+  resources: []
+  preview:
+    port: 4200
+    browser: true
+
+# Website structure
+website:
+  title: "Site Title"
+  navbar: ...
+  sidebar: ...
+  search: ...
+  page-footer: ...
+  site-url: "https://example.com"
+
+# Book structure  
+book:
+  title: "Book Title"
+  chapters: ...
+  appendices: ...
+  
+# Manuscript structure
+manuscript:
+  article: article.qmd
+  notebooks: ...
+
+# Build profiles
+profile:
+  default: production
+  group: [[a, b]]
+
+# External metadata files
+metadata-files:
+  - _variables.yml
+
+# Publishing targets
+publish:
+  provider: gh-pages
+```
+:::
+
+In `_metadata.yml`, we mostly focus on `format`. The layered strcture makes any specific function has its own style. 
+
+## Citation
 
 We can create a variety of format using relative simple grammar  [@shanny-csikCreatingYourPersonal2022]. If I want to create a citation in my blog, what I need to do is only add several lines in my yaml header in blow. 
 ```yaml
