@@ -20,11 +20,6 @@ about:
     - icon: envelope
       text: Email
       href: mailto:chrisli218085778@gmail.com
-    - icon: file-earmark-person
-      text: CV
-      href: files/Yiyuan_Li_CV.pdf
-      target: _blank
-
 
 
 
@@ -33,4 +28,3 @@ about:
 ## About Me 
 
 Yiyuan (Chris) Li (🪄 they/them) is a senior undergraduate student at Reed College, where they are completing an interdisciplinary thesis on Trustworthy AI Evaluations and Vertical AI Agent Benchmarks. Their research bridges large language models, multimodal systems, and fine-grained evaluation design, with applications spanning data analysis and agentic workflows. They collaborate with Reed’s DataLab and Cerveny Lab, contributing to both AI evaluation frameworks and biological imaging pipelines. They are passionate about advancing reliable and interpretable AI while building sustainable computing infrastructure for research. Outside of work, they enjoy exploring philosophy and writing creatively across science and art.
-

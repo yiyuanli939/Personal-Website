@@ -13,6 +13,9 @@ website:
         text: Home # homepage link 
       - href: blog.qmd 
         text: Blog
+      - href: files/Yiyuan_Li_CV.pdf
+        text: CV
+        target: _blank
   page-footer:
     center: "© 2025 Yiyuan Li"
 
@@ -22,6 +25,5 @@ format:
       - cosmo
       - styles.scss 
     toc: true
-
 
 
