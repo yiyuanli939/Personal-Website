@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - files/Yiyuan_Li_CV.pdf
+    - ./files/Yiyuan_Li_CV.pdf
 
 website:
   title: "Yiyuan Li"
