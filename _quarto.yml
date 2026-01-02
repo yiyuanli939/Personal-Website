@@ -6,6 +6,7 @@ project:
 
 website:
   title: "Yiyuan Li"
+  site-url: "https://yiyuanli939.github.io/Personal-Website"
   navbar:
     left:
       - href: index.qmd
