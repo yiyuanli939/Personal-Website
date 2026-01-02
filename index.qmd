@@ -7,7 +7,7 @@ about:
   links:
     - icon: github
       text: GitHub
-      href: <https://github.com/yiyuanli939>
+      href: https://github.com/yiyuanli939
       target: _blank
     - icon: bluesky
       text: Bluesky
